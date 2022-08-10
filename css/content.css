@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .content{
     background-color: #252525;
     margin-left: 150px;
@@ -51,4 +52,59 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+=======
+.content{
+    background-color: #252525;
+    margin-left: 150px;
+    margin-top: 100px;
+    padding-top: 20px;
+    width: calc(100% - 150px);
+    color: white;
+}
+
+.website-group{
+    position: relative;
+    padding: 20px 40px;
+}
+.website-group h4{
+    font-size: 18px;
+    font-weight: 2000;
+    padding-left: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.website-group ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.website{
+    background-color: rgba(114, 114, 114, 0.5);
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    z-index: 1;
+}
+.website:hover{
+    cursor: pointer;
+}
+.website img{
+    height: 50px;
+    width: 50px;
+}
+.web-desc {
+    width: 100%;
+    margin: 0px auto;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+.web-desc p{
+    font-size: 6px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+>>>>>>> 2f69c3413d5d96f30991bb9e387b6f53cce9947c
 }
