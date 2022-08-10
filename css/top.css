@@ -4,6 +4,7 @@
 }
 body{
     transform: none;
+    min-width: 1200px;
 }
 html{
     scroll-padding-top: 100px;
