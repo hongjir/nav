@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var google = "https://www.google.com/search?q="
 var bing = "https://cn.bing.com/search?q="
 var weibo = "https://weibo.com/search?q="
