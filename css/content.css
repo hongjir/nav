@@ -5,6 +5,7 @@
     padding-top: 20px;
     width: calc(100% - 150px);
     color: white;
+    position: absolute;
 }
 
 .website-group{
