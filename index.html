@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>hhh导航</title>
+    <title>鸿纪导航</title>
     <meta name="viewport" content="width=1200, initial-scale=0.66"/>
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/top.css">
     <link rel="stylesheet" type="text/css" href="css/side.css">
     <link rel="stylesheet" type="text/css" href="css/content.css">
@@ -14,21 +15,17 @@
     <!-- 头部内容 -->
     <div class="top">
         <div class="logo">
-            <b>HJ</b>
+            <img src="favicon.ico" alt="">
         </div>
         <div class="search">
-            <ul>
-                <img class="search-icon" id="current-search-icon" src="image/bing.png" alt="">
-                <li class="hidden-icon">
-                    <ul>
-                        <li><a href="#" onclick="changeEngine(bing, 'bing')">bing</a></li>
-                        <li><a href="#" onclick="changeEngine(google, 'google')">google</a></li>
-                        <li><a href="#" onclick="changeEngine(ip, 'ip')">ip</a></li>
-                        <li><a href="#" onclick="changeEngine(weibo, 'weibo')">微博搜索</a></li>
-                        <li><a href="#" onclick="changeEngine(zhihu, 'zhihu')">知乎搜索</a></li>
-                    </ul>
-                </li>
-            </ul>
+                <img class="search-icon" id="current-search-icon" src="image/bing.png" alt="" onclick="displaySubMe()">
+                <ul class="hidden-icon">
+                    <li><a class="current-engine engine-bing" href="#" onclick="changeEngine(bing, 'bing')">bing</a></li>
+                    <li><a class="engine-google" href="#" onclick="changeEngine(google, 'google')">google</a></li>
+                    <li><a class="engine-ip" href="#" onclick="changeEngine(ip, 'ip')">ip搜索</a></li>
+                    <li><a class="engine-weibo" href="#" onclick="changeEngine(weibo, 'weibo')">微博搜索</a></li>
+                    <li><a class="engine-zhihu" href="#" onclick="changeEngine(zhihu, 'zhihu')">知乎搜索</a></li>
+                </ul>
             <input id="key" onkeydown="re_search()" type="text" placeholder="请输入关键字">
             <button id="submit" onclick="search()"></button>
         </div>

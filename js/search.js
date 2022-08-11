@@ -24,5 +24,9 @@ function search(){
 
 function changeEngine(c, name){
     engine = c;
+    var className = 'engine-' + name;
     document.getElementById('current-search-icon').setAttribute('src', 'image/' + name + '.png');
+    document.getElementsByClassName('current-engine')[0].classList.remove('current-engine');
+    document.getElementsByClassName(className)[0].classList.add('current-engine');
+    // alert(document.getElementsByClassName(className)[0]+'!');
 }
