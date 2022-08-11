@@ -1,6 +1,7 @@
 var google = "https://www.google.com/search?q="
 var bing = "https://cn.bing.com/search?q="
-var weibo = "https://weibo.com/search?q="
+var ip = "https://sitereport.netcraft.com/?url="
+var weibo = "https://s.weibo.com/weibo?q="
 var zhihu = "https://www.zhihu.com/search?type=content&q="
 
 var engine = bing
@@ -19,4 +20,9 @@ function search(){
         var url = engine + key
         window.open(url, '_blank')
     }
+}
+
+function changeEngine(c, name){
+    engine = c;
+    document.getElementById('current-search-icon').setAttribute('src', 'image/' + name + '.png');
 }

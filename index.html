@@ -17,7 +17,18 @@
             <b>HJ</b>
         </div>
         <div class="search">
-            <img class="search-icon" src="image/bing.png" alt="">
+            <ul>
+                <img class="search-icon" id="current-search-icon" src="image/bing.png" alt="">
+                <li class="hidden-icon">
+                    <ul>
+                        <li><a href="#" onclick="changeEngine(bing, 'bing')">bing</a></li>
+                        <li><a href="#" onclick="changeEngine(google, 'google')">google</a></li>
+                        <li><a href="#" onclick="changeEngine(ip, 'ip')">ip</a></li>
+                        <li><a href="#" onclick="changeEngine(weibo, 'weibo')">微博搜索</a></li>
+                        <li><a href="#" onclick="changeEngine(zhihu, 'zhihu')">知乎搜索</a></li>
+                    </ul>
+                </li>
+            </ul>
             <input id="key" onkeydown="re_search()" type="text" placeholder="请输入关键字">
             <button id="submit" onclick="search()"></button>
         </div>
