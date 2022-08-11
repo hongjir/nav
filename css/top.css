@@ -7,6 +7,10 @@
 body{
     transform: none;
     min-width: 1200px;
+    background: url("../background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 /* 网页内跳转留白 */
 html{
@@ -61,15 +65,19 @@ li{
     width: 100%;
     height: 100px;
     border-bottom: 2px solid white;
-    background-color: rgb(55, 55, 55);
+    background-color: rgba(55, 55, 55, .6);
     position: fixed;
     display: flex;
     z-index: 2;
 }
 /* 图标 */
+.logo{
+    width: 150px;
+    border-right: 2px solid white;
+}
 .logo img{
-    margin-top: 20px;
-    margin-left: 20px;
+    position: relative;
+    margin: 10px 20px;
     width: 80px;
     height: 80px;
 }
