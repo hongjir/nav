@@ -6,9 +6,12 @@
     <title>鸿纪导航</title>
     <meta name="viewport" content="width=1200, initial-scale=0.66"/>
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/top.css">
-    <link rel="stylesheet" type="text/css" href="css/side.css">
-    <link rel="stylesheet" type="text/css" href="css/content.css">
+    <link rel="stylesheet" type="text/css" href="css/header/overall.css">
+    <link rel="stylesheet" type="text/css" href="css/header/search.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar/overall.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar/scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/content/overall.css">
+    <link rel="stylesheet" type="text/css" href="css/content/tooltip.css">
     <script src="js/search.js"></script>
 </head>
 <body>
@@ -74,7 +77,7 @@
         <div class="website-group">
             <h4><span id="常用">常用</span></h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://bilibili.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image//icon//bilibili.png" alt="">
@@ -84,8 +87,9 @@
                             <p>小学生聚集地</p>
                         </div>
                     </div>
+                    <span class="tooltiptext">哔哩哔哩动画</span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://zhihu.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image//icon//zhihu.png" alt="">
@@ -95,19 +99,21 @@
                             <p>国内最大的吹逼网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext">知乎 - 国内最大的吹逼网站</span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://github.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image//icon/github.ico" alt="">
                         </div>
                         <div class="web-desc">
                             <b>Github</b>
-                            <p>全球最大的同性交友网站</p>
+                            <p>代码托管平台；好东西挖掘地</p>
                         </div>
                     </div>
+                    <span class="tooltiptext">Gayhub - 全球最大的同性交友网站</span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://fanyi.baidu.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/baidu translation.ico" alt="">
@@ -117,35 +123,38 @@
                             <p>翻译</p>
                         </div>
                     </div>
+                    <span class="tooltiptext">百度翻译 - 翻译 </span>
                 </li>
-                <li>
+                    <li class="tooltip">
                     <div class="website" onclick="window.open('https://youtube.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/youtube.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>YouTube(X</b>
+                        <div class="web-desc website-magic">
+                            <b>YouTube</b>
                             <p>视频网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext">YouTube - 全世界最大的视频网站（学习平台！）</span>
                 </li>
-                <li>
+                    <li class="tooltip">
                     <div class="website" onclick="window.open('https://twitter.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/twitter.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>Twitter(X</b>
+                        <div class="web-desc website-magic">
+                            <b>Twitter</b>
                             <p>互联网垃圾桶</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
         </div>
         <div class="website-group">
             <h4 id="社会">社会新闻</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://weibo.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/weibo.ico" alt="">
@@ -155,11 +164,12 @@
                             <p>简中垃圾桶</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
             <h4 id="科技">科技新闻</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.36kr.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/36kr.ico" alt="">
@@ -169,8 +179,9 @@
                             <p>快讯，科技，金融，投资，房产，汽车，互联网</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.huxiu.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/huxiu.ico" alt="">
@@ -180,8 +191,9 @@
                             <p>聚合优质的创新信息与人群，捕获精选|深度|犀利的商业科技资讯</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.kejixun.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/kejixun.ico" alt="">
@@ -191,11 +203,12 @@
                             <p>综合科技生活门户网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
             <h4 id="论坛">论坛</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.douban.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/douban.png" alt="">
@@ -205,8 +218,9 @@
                             <p>综合性论坛|电影、阅读、音乐...</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://nag.cn', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/nga.png" alt="">
@@ -216,13 +230,14 @@
                             <p>游戏社区</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
         </div>
         <div class="website-group">
             <h4 id="动漫">动漫</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.bimiacg4.net/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/m.ico" alt="">
@@ -232,8 +247,9 @@
                             <p>哔咪动漫</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.senfun.net/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/senzhiwu.png" alt="">
@@ -243,8 +259,9 @@
                             <p>一个在线的高质量动漫网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://acgfantuan.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/fantuan.png" alt="">
@@ -254,8 +271,9 @@
                             <p>免费动漫在线看</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.yhdmp.live/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/yinghuadongman.png" alt="">
@@ -265,8 +283,9 @@
                             <p>野火烧不尽，春风吹又生</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.scfun.net/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/shuangci.png" alt="">
@@ -276,8 +295,9 @@
                             <p>聚合播放</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.edddm.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/edd.png" alt="">
@@ -287,8 +307,9 @@
                             <p>发布页</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.bbddm.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bbd.png" alt="">
@@ -298,8 +319,9 @@
                             <p>在线观看</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.dalv666.top/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/dalv.png" alt="">
@@ -309,8 +331,9 @@
                             <p>发布页</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.ikanfan.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/ikanfan.png" alt="">
@@ -320,8 +343,9 @@
                             <p>界面比较高级？</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://omofun.tv/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/omofun.png" alt="">
@@ -331,8 +355,9 @@
                             <p>在线观看</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.mandao.tv/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mandao.png" alt="">
@@ -342,8 +367,9 @@
                             <p>在线观看</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://lixacg.cf/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bksjjx.png" alt="">
@@ -353,8 +379,9 @@
                             <p>在线观看</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.cybfun.top', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/ciyuandongman.png" alt="">
@@ -364,11 +391,12 @@
                             <p>jio打b站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
             <h4 id="漫画">漫画</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.mangabz.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mangabz.ico" alt="">
@@ -378,8 +406,9 @@
                             <p>日本漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.cocomanga.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/cocomanga.png" alt="">
@@ -389,8 +418,9 @@
                             <p>国漫，在线漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.manhuadb.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mangadb.ico" alt="">
@@ -400,8 +430,9 @@
                             <p>日本漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://www.kumw5.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mankuwu.ico" alt="">
@@ -411,8 +442,9 @@
                             <p>下拉式漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.dashuhuwai.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/dashu.ico" alt="">
@@ -422,8 +454,9 @@
                             <p>下拉式漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.cartoonmad.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/dmk.ico" alt="">
@@ -433,8 +466,9 @@
                             <p>免费漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.dm5.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/dmw.ico" alt="">
@@ -444,8 +478,9 @@
                             <p>各地漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.mkzhan.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mkz.ico" alt="">
@@ -455,8 +490,9 @@
                             <p>国内漫画网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://vol.moe/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mox.ico" alt="">
@@ -466,8 +502,9 @@
                             <p>漫画下载（需登录</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.u17.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/youyaoqi.ico" alt="">
@@ -477,11 +514,12 @@
                             <p>国内原创漫画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
             <h4 id="游戏">游戏</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://wiki.biligame.com/wiki/%E9%A6%96%E9%A1%B5', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bilibili.png" alt="">
@@ -491,8 +529,9 @@
                             <p>b站wiki首页</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bilibili.png" alt="">
@@ -502,8 +541,9 @@
                             <p>bilibili Wiki</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bilibili.png" alt="">
@@ -513,8 +553,9 @@
                             <p>bilibili Wiki</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://game8.co/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/game8.png" alt="">
@@ -524,8 +565,9 @@
                             <p>全球最大的游戏wiki（英语</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://game8.jp/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/game8.png" alt="">
@@ -535,8 +577,9 @@
                             <p>日语</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.mcbbs.net/forum.php', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mc.ico" alt="">
@@ -546,8 +589,9 @@
                             <p>国内最大的mc讨论网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://klpbbs.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/klpbbs.ico" alt="">
@@ -557,11 +601,12 @@
                             <p>mc资源站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
             <h4 id="小说">小说</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.qbiqu.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/biquge.ico" alt="">
@@ -571,8 +616,9 @@
                             <p>国内网络小说</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.xbiquwx.la/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bijianxiaoshuo.ico" alt="">
@@ -582,8 +628,9 @@
                             <p>盗版笔趣阁</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.shuquge.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/shuquge.ico" alt="">
@@ -593,19 +640,21 @@
                             <p>国内网络小说</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://kakuyomu.jp/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/kakuyomu.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>カクヨム(X</b>
+                        <div class="web-desc website-magic">
+                            <b>カクヨム</b>
                             <p>日本较知名轻小说网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://estar.jp/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/estar.ico" alt="">
@@ -615,8 +664,9 @@
                             <p>日本轻小说</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://novelup.plus/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/novelup.png" alt="">
@@ -626,19 +676,21 @@
                             <p>日本小说网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://syosetu.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/cwxsjb.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>小説家になろう (X</b>
+                        <div class="web-desc website-magic">
+                            <b>小説家になろう </b>
                             <p>成为小说家吧</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://ritdon.com/forum.php', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/sydsh.ico" alt="">
@@ -648,8 +700,9 @@
                             <p>日轻交流论坛</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.lightnovel.app/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/qingshujia.png" alt="">
@@ -659,8 +712,9 @@
                             <p>轻小说爱好者社区</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.lightnovel.us/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/qzgd.ico" alt="">
@@ -670,13 +724,14 @@
                             <p>综合性论坛，含轻小说及相关漫画、动画</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
         </div>
         <div class="website-group">
             <h4 id="视频">视频</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.icourse163.org/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/mooc.png" alt="">
@@ -686,8 +741,9 @@
                             <p>中国大学慕课</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://open.163.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/wygkk.ico" alt="">
@@ -697,8 +753,9 @@
                             <p>综合性网课</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.coursera.org/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/coursera.ico" alt="">
@@ -708,8 +765,9 @@
                             <p>国外最大的网课平台</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://alison.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/alison.ico" alt="">
@@ -719,8 +777,9 @@
                             <p>国外网课平台</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.edx.org/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/edx.ico" alt="">
@@ -730,12 +789,13 @@
                             <p>国外网课平台</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
 
             </ul>
             <h4 id="图文">图文</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.runoob.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/cainiao.ico" alt="">
@@ -745,8 +805,9 @@
                             <p>IT 教程</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.w3cschool.cn/tutorial', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/wc3.ico" alt="">
@@ -756,8 +817,9 @@
                             <p>仿照最大的 web 网站，这个界面比较好看</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.w3school.com.cn/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/ws3.png" alt="">
@@ -767,8 +829,9 @@
                             <p>全世界最大的 web 技术网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://docs.python.org/3/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/python.ico" alt="">
@@ -778,12 +841,13 @@
                             <p>rt</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
 
             </ul>
             <h4 id="问答">问答</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.cnblogs.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/cnblog.ico" alt="">
@@ -793,8 +857,9 @@
                             <p>开发者技术博客</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://stackoverflow.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/Stack Overflow.ico" alt="">
@@ -804,6 +869,7 @@
                             <p>全世界最大的技术问答网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
 
             </ul>
@@ -811,7 +877,7 @@
         <div class="website-group">
             <h4 id="搜书">搜书</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.jiumodiary.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/jiumo.png" alt="">
@@ -821,8 +887,9 @@
                             <p>电子书搜索</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://bookfere.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/shuban.ico" alt="">
@@ -832,8 +899,9 @@
                             <p>一般的图书搜索网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://new.shuge.org/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/shuge.ico" alt="">
@@ -843,8 +911,9 @@
                             <p>一般的图书搜索网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.ituring.com.cn/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/tulingshequ.png" alt="">
@@ -854,8 +923,9 @@
                             <p>IT 相关书籍</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.wdl.org/zh/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/worldbook.ico" alt="">
@@ -865,8 +935,9 @@
                             <p>资料比较全，英文搜索</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.academia.edu/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/academicedu.ico" alt="">
@@ -876,8 +947,9 @@
                             <p>须登录，各领域的学术书籍下载</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://bookboon.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/bookboon.ico" alt="">
@@ -887,8 +959,9 @@
                             <p>国外大学教材，须登录，免费下载有限</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://chendandan.store/?p=3379', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/zlib-jingxiang.png" alt="">
@@ -898,12 +971,13 @@
                             <p>世界最大的电子书下载网站，镜像站追踪</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
 
             </ul>
             <h4 id="搜图">搜图</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://graph.baidu.com/pcpage/index?tpl_from=pc', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/baidu.ico" alt="">
@@ -913,8 +987,9 @@
                             <p>国内图片搜索</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://pic.sogou.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/sougou.ico" alt="">
@@ -924,19 +999,21 @@
                             <p>国内图片搜索/p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.google.com/imghp', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/google.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>谷歌识图(X</b>
+                        <div class="web-desc website-magic">
+                            <b>谷歌识图</b>
                             <p>全网图片搜索</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://yandex.com/images/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/yandex.ico" alt="">
@@ -946,19 +1023,21 @@
                             <p>不只是图片</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.tineye.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/tineye.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>tineye(X</b>
+                        <div class="web-desc website-magic">
+                            <b>tineye</b>
                             <p>俄罗斯网站，图片找不到就是没有了</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://saucenao.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/saucenao.ico" alt="">
@@ -968,8 +1047,9 @@
                             <p>动漫图片</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://trace.moe/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/trace.png" alt="">
@@ -979,6 +1059,7 @@
                             <p>精确到帧</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
 
             </ul>
@@ -986,18 +1067,19 @@
         <div class="website-group">
             <h4 id="美图">美图</h4>
             <ul>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('http://www.pixiv.net/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/pixiv.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>pixiv(X</b>
+                        <div class="web-desc website-magic">
+                            <b>pixiv</b>
                             <p>知名二刺螈插画网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://huaban.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/huaban.ico" alt="">
@@ -1007,8 +1089,9 @@
                             <p>素材收集</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.zcool.com.cn/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/zcool.png" alt="">
@@ -1018,23 +1101,25 @@
                             <p>国内最大的设计师交流平台</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('https://www.pinterest.com/', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon/pinterest.png" alt="">
                         </div>
-                        <div class="web-desc">
-                            <b>pinterest(X</b>
+                        <div class="web-desc website-magic">
+                            <b>pinterest</b>
                             <p>全球最大的美图收集网站</p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
             </ul>
         </div>
         <!--
             模板保存：
-                <li>
+                <li class="tooltip">
                     <div class="website" onclick="window.open('', '_blank')">
                         <div class="web-icon">
                             <img src="image/icon" alt="">
@@ -1044,6 +1129,7 @@
                             <p></p>
                         </div>
                     </div>
+                    <span class="tooltiptext"></span>
                 </li>
 
         -->
