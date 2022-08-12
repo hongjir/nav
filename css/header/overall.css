@@ -81,12 +81,3 @@ li{
     width: 80px;
     height: 80px;
 }
-/* ------------------------------搜索框Start---------------------------------- */
-.search{
-    display: flex;
-    width: 500px;
-    height: 100px;
-    background-color: transparent;
-    margin-left: auto;
-    margin-right: auto;
-}

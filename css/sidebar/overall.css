@@ -10,25 +10,24 @@
     position: relative;
     color: aliceblue;
     top: 1%;
-    left: 5%;
     width: 90%;
 }
-.menu a{
-    display: block;
-    color: white;
-    padding: 10px;
-}
-.menu a:hover{
-    display: block;
-    background-color: rgb(240, 248, 255, 0.1) ;
+.menu>div{
+    margin: 0 10px;
+    width: 130px;
+    border-bottom: 2px solid white;
 }
 .menu ul{
-    padding: 10px;
-    border-bottom: 1px solid aliceblue;
-}
-.menu ul li{
-    width: 100%;
     text-align: center;
-    margin: 0 auto;
-    position: relative;
+    padding-bottom: 10px;
+}
+.menu ul li a{
+    padding: 10px 0;
+    display: block;
+    color: white;
+    border: 1px dotted rgba(255, 0, 0, 0.5);
+    border-collapse: collapse;
+}
+.menu ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
 }
