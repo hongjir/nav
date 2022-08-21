@@ -3,6 +3,7 @@ var bing = "https://cn.bing.com/search?q="
 var ip = "https://sitereport.netcraft.com/?url="
 var weibo = "https://s.weibo.com/weibo?q="
 var zhihu = "https://www.zhihu.com/search?type=content&q="
+var bilibili = "https://www.bilibili.com/search?q="
 
 var engine = bing
 

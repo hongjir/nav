@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=1200, initial-scale=0.66"/>
 
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/header/overall.css">
+    <link rel="stylesheet" type="text/css" href="css/header/h_overall.css">
     <link rel="stylesheet" type="text/css" href="css/header/search.css">
-    <link rel="stylesheet" type="text/css" href="css/sidebar/overall.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar/s_overall.css">
     <link rel="stylesheet" type="text/css" href="css/sidebar/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="css/sidebar/submenu.css">
-    <link rel="stylesheet" type="text/css" href="css/content/overall.css">
+    <link rel="stylesheet" type="text/css" href="css/content/c_overall.css">
     <link rel="stylesheet" type="text/css"
     href="css/content/tooltip.css">
 
@@ -29,11 +29,12 @@
             <ul class="engine-menu">
                 <li><a class="current-engine engine-bing" href="#" onclick="changeEngine(bing, 'bing')">bing</a></li>
                 <li><a class="engine-google" href="#" onclick="changeEngine(google, 'google')">google</a></li>
-                <li><a class="engine-ip" href="#" onclick="changeEngine(ip, 'ip')">ip搜索</a></li>
-                <li><a class="engine-weibo" href="#" onclick="changeEngine(weibo, 'weibo')">微博搜索</a></li>
+                <li><a class="engine-bilibili" href="#" onclick="changeEngine(bilibili, 'bilibili')">bilibili</a></li>
                 <li><a class="engine-zhihu" href="#" onclick="changeEngine(zhihu, 'zhihu')">知乎搜索</a></li>
+                <li><a class="engine-weibo" href="#" onclick="changeEngine(weibo, 'weibo')">微博搜索</a></li>
+                <li><a class="engine-ip" href="#" onclick="changeEngine(ip, 'ip')">ip搜索</a></li>
             </ul>
-            <img class="search-icon" id="current-search-icon" src="image/bing.png" alt="" onclick="displaySubMe()">
+            <img class="search-icon" id="current-search-icon" src="image/bing.png" alt="">
             <input id="key" onkeydown="re_search()" type="text" placeholder="请输入关键字">
             <button id="submit" onclick="search()"></button>
         </div>
