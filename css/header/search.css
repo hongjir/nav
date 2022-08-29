@@ -62,10 +62,10 @@
     padding-left: 10px;
 }
 #key{
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 .search input[type="text"]:focus{
-    color: white;
+    color: rgb(189, 189, 189);
     outline-style: none;
 }
 .search button{
@@ -85,12 +85,12 @@
 }
 /*设置搜索框默认文字颜色！CSS3的新特性*/
 input:-moz-placeholder,textarea:-moz-placeholder{
-color: #ffffff;
+color: #969696;
 }
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{
-color: #ffffff;
+color: #969696;
 }
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
-color: #ffffff;
+color: #969696;
 }
 /* -----------------------搜索框End------------------------- */
