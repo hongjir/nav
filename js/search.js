@@ -20,6 +20,7 @@ function search(){
     if (key){
         var url = engine + key
         window.open(url, '_blank')
+        document.getElementById("key").value=""
     }
 }
 
@@ -29,5 +30,4 @@ function changeEngine(c, name){
     document.getElementById('current-search-icon').setAttribute('src', 'image/' + name + '.png');
     document.getElementsByClassName('current-engine')[0].classList.remove('current-engine');
     document.getElementsByClassName(className)[0].classList.add('current-engine');
-    // alert(document.getElementsByClassName(className)[0]+'!');
 }
