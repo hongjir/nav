@@ -1,10 +1,31 @@
+<!--
+            模板保存：
+        <div class="website-group">
+            <h4 id=""></h4>
+            <ul>
+                <li class="tooltip">
+                    <div class="website clickOnWebsite" onclick="window.open('', '_blank')">
+                        <div class="web-icon">
+                            <img class="clickOnWebsite" src="image/icon" alt="">
+                        </div>
+                        <div class="web-desc clickOnWebsite">
+                            <b></b>
+                            <p></p>
+                        </div>
+                    </div>
+                    <span class="tooltiptext"></span>
+                </li>
+            <ul>
+        </div>
+        -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>鸿纪导航</title>
-    <meta name="viewport" content="width=1200, initial-scale=0.66"/>
+    <meta name="viewport" content="width=1200, initial-scale=0.66" />
 
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/header/h_overall.css">
@@ -13,12 +34,12 @@
     <link rel="stylesheet" type="text/css" href="css/sidebar/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="css/sidebar/submenu.css">
     <link rel="stylesheet" type="text/css" href="css/content/c_overall.css">
-    <link rel="stylesheet" type="text/css"
-    href="css/content/tooltip.css">
+    <link rel="stylesheet" type="text/css" href="css/content/tooltip.css">
 
     <script src="js/search.js"></script>
     <script src="js/sideSubmenu.js"></script>
 </head>
+
 <body>
     <!-- 头部内容 -->
     <div class="top">
@@ -27,8 +48,9 @@
         </div>
         <div class="search">
             <ul class="engine-menu">
-                <li><a class="engine-google" href="#" onclick="changeEngine(google, 'google')">google</a></li>
-                <li><a class="current-engine engine-bing" href="#" onclick="changeEngine(bing, 'bing')">bing</a></li>
+                <li><a class="current-engine engine-google" href="#" onclick="changeEngine(google, 'google')">google</a>
+                </li>
+                <li><a class="engine-bing" href="#" onclick="changeEngine(bing, 'bing')">bing</a></li>
                 <li><a class="engine-bilibili" href="#" onclick="changeEngine(bilibili, 'bilibili')">bilibili</a></li>
                 <li><a class="engine-zhihu" href="#" onclick="changeEngine(zhihu, 'zhihu')">知乎搜索</a></li>
                 <li><a class="engine-weibo" href="#" onclick="changeEngine(weibo, 'weibo')">微博搜索</a></li>
@@ -75,7 +97,7 @@
             </div>
             <div class="submenu sidegroup-4">
                 <h4 class="clickOnSubmenu" onclick="showSubmenu('sidegroup-4')">资源搜索</h4>
-                <ul  class="clickOnSubmenu">
+                <ul class="clickOnSubmenu">
                     <li><a class="clickOnSubmenu" href="#搜书">搜书</a></li>
                     <li><a class="clickOnSubmenu" href="#搜图">搜图</a></li>
                     <li><a class="clickOnSubmenu" href="#字体">字体</a></li>
@@ -103,10 +125,10 @@
                         </div>
                         <div class="web-desc clickOnWebsite">
                             <b>bilibili</b>
-                            <p>小学生聚集地</p>
+                            <p>CN 油土鳖？</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">哔哩哔哩动画</span>
+                    <span class="tooltiptext">小学生聚集地</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('http://zhihu.com/', '_blank')">
@@ -115,10 +137,10 @@
                         </div>
                         <div class="web-desc clickOnWebsite">
                             <b>知乎</b>
-                            <p>国内最大的吹逼网站</p>
+                            <p>国内最大的吹水网站</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">知乎 - 国内最大的吹逼网站</span>
+                    <span class="tooltiptext">水军能不能再多点？</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('http://github.com/', '_blank')">
@@ -142,9 +164,9 @@
                             <p>翻译</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">百度翻译 - 翻译 </span>
+                    <span class="tooltiptext">八国联军</span>
                 </li>
-                    <li class="tooltip">
+                <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://youtube.com/', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/youtube.png" alt="">
@@ -156,7 +178,7 @@
                     </div>
                     <span class="tooltiptext">YouTube - 全世界最大的视频网站（学习平台！）</span>
                 </li>
-                    <li class="tooltip">
+                <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://twitter.com/', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/twitter.png" alt="">
@@ -168,6 +190,67 @@
                     </div>
                     <span class="tooltiptext">Twitter - 全世界最大的社交平台；国际新闻吃瓜一线</span>
                 </li>
+                <li class="tooltip">
+                    <div class="website clickOnWebsite" onclick="window.open('https://scholar.google.com/', '_blank')">
+                        <div class="web-icon">
+                            <img class="clickOnWebsite" src="image/icon/googlescholar.ico" alt="">
+                        </div>
+                        <div class="web-desc clickOnWebsite website-magic">
+                            <b>谷歌学术</b>
+                            <p>查资料</p>
+                        </div>
+                    </div>
+                    <span class="tooltiptext">不会真的有人用这个查水表吧？</span>
+                </li>
+                <li class="tooltip">
+                    <div class="website clickOnWebsite" onclick="window.open('https://paperswithcode.com/', '_blank')">
+                        <div class="web-icon">
+                            <img class="clickOnWebsite" src="image/icon/ppwc.ico" alt="">
+                        </div>
+                        <div class="web-desc clickOnWebsite">
+                            <b>Paper With Code</b>
+                            <p>代码与论文，主要是深度学习领域</p>
+                        </div>
+                    </div>
+                    <span class="tooltiptext">cv 工程师 - ctrl-c + ctrl-v</span>
+                </li>
+                <li class="tooltip">
+                    <div class="website clickOnWebsite" onclick="window.open('https://zlibrary-global.se/', '_blank')">
+                        <div class="web-icon">
+                            <img class="clickOnWebsite" src="image/icon/zlib.ico" alt="">
+                        </div>
+                        <div class="web-desc clickOnWebsite website-magic">
+                            <b>Zlib</b>
+                            <p>全球最大的电子书下载站</p>
+                        </div>
+                    </div>
+                    <span class="tooltiptext">知识的海洋</span>
+                </li>
+                <li class="tooltip">
+                    <div class="website clickOnWebsite" onclick="window.open('https://chat.openai.com/', '_blank')">
+                        <div class="web-icon">
+                            <img class="clickOnWebsite" src="image/icon/gpt.ico" alt="">
+                        </div>
+                        <div class="web-desc clickOnWebsite website-magic">
+                            <b>ChatGPT</b>
+                            <p>目前最先进的语言大模型</p>
+                        </div>
+                    </div>
+                    <span class="tooltiptext">呜呜呜</span>
+                </li>
+                <!-- <li class="tooltip">
+                    <div class="website clickOnWebsite" onclick="window.open('http://fanyi.baidu.com/', '_blank')">
+                        <div class="web-icon">
+                            <img class="clickOnWebsite" src="image/icon/baidu translation.ico" alt="">
+                        </div>
+                        <div class="web-desc clickOnWebsite">
+                            <b></b>
+                            <p></p>
+                        </div>
+                    </div>
+                    <span class="tooltiptext"> </span>
+                </li> -->
+
             </ul>
         </div>
         <div class="website-group">
@@ -461,7 +544,8 @@
                             <p>日本漫画</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">漫画DB - 全网最专业的日本漫画大全资料库。网站上的所有漫画均可免费在线看，同时每部漫画都有丰富的资料，包括登场人物、用语、设定、改编作品及创作幕后等深层的内容。</span>
+                    <span class="tooltiptext">漫画DB -
+                        全网最专业的日本漫画大全资料库。网站上的所有漫画均可免费在线看，同时每部漫画都有丰富的资料，包括登场人物、用语、设定、改编作品及创作幕后等深层的内容。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('http://www.kumw5.com/', '_blank')">
@@ -473,7 +557,8 @@
                             <p>下拉式漫画</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">酷漫屋 - 为您推荐全网最新最全漫画，漫画在线观看，经典漫画，2018热门漫画大全，2019最新漫画，下拉式漫画免费观看。第一时间更新漫画。</span>
+                    <span class="tooltiptext">酷漫屋 -
+                        为您推荐全网最新最全漫画，漫画在线观看，经典漫画，2018热门漫画大全，2019最新漫画，下拉式漫画免费观看。第一时间更新漫画。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://www.dashuhuwai.com/', '_blank')">
@@ -521,7 +606,8 @@
                             <p>国内漫画网站</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">漫客栈 - 中国领先的原创漫画平台，七年来积累了大量的签约作者和好看的漫画作品，斗破苍穹漫画、斗罗大陆漫画，更有APP和漫画下载等精彩内容等你发现，看漫画，就来漫客栈！</span>
+                    <span class="tooltiptext">漫客栈 -
+                        中国领先的原创漫画平台，七年来积累了大量的签约作者和好看的漫画作品，斗破苍穹漫画、斗罗大陆漫画，更有APP和漫画下载等精彩内容等你发现，看漫画，就来漫客栈！</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://vol.moe/', '_blank')">
@@ -545,13 +631,15 @@
                             <p>国内原创漫画</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">有妖气漫画 - 中国唯一且最大的纯原创漫画网站，数千名中国原创漫画作者汇聚于此，在线连载最热门的全新漫画作品，为中国原创漫画作者提供最肥沃的漫画创作土壤。</span>
+                    <span class="tooltiptext">有妖气漫画 -
+                        中国唯一且最大的纯原创漫画网站，数千名中国原创漫画作者汇聚于此，在线连载最热门的全新漫画作品，为中国原创漫画作者提供最肥沃的漫画创作土壤。</span>
                 </li>
             </ul>
             <h4 id="游戏">游戏</h4>
             <ul>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://wiki.biligame.com/wiki/%E9%A6%96%E9%A1%B5', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://wiki.biligame.com/wiki/%E9%A6%96%E9%A1%B5', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/bilibili.png" alt="">
                         </div>
@@ -563,7 +651,8 @@
                     <span class="tooltiptext">国内比较活跃的游戏wiki社区</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/bilibili.png" alt="">
                         </div>
@@ -575,7 +664,8 @@
                     <span class="tooltiptext">碧蓝航线wiki</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/bilibili.png" alt="">
                         </div>
@@ -587,7 +677,8 @@
                     <span class="tooltiptext">原神wiki</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://webstatic.mihoyo.com/ys/app/interactive-map', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://webstatic.mihoyo.com/ys/app/interactive-map', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/mihoyo.ico" alt="">
                         </div>
@@ -623,7 +714,8 @@
                     <span class="tooltiptext">日语版</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://www.mcbbs.net/forum.php', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://www.mcbbs.net/forum.php', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/mc.ico" alt="">
                         </div>
@@ -773,7 +865,8 @@
             <h4 id="二刺螈">窝趣！二刺螈！</h4>
             <ul>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://zh.moegirl.org.cn/Mainpage', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://zh.moegirl.org.cn/Mainpage', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/mengniang.ico" alt="">
                         </div>
@@ -821,7 +914,8 @@
                     <span class="tooltiptext">有点乱七八糟的界面</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://www.dongmanhuayuan.com/', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://www.dongmanhuayuan.com/', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/dmhy.ico" alt="">
                         </div>
@@ -895,7 +989,8 @@
                             <p>国外最大的网课平台</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">Learn online and earn valuable credentials from top universities like Yale, Michigan, Stanford, and leading companies like Google and IBM.宝藏挖掘地（感觉...不如油管...全面</span>
+                    <span class="tooltiptext">Learn online and earn valuable credentials from top universities like
+                        Yale, Michigan, Stanford, and leading companies like Google and IBM.宝藏挖掘地（感觉...不如油管...全面</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://alison.com/', '_blank')">
@@ -907,7 +1002,8 @@
                             <p>国外网课平台</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">Join 25 million learners and explore 4000 free online courses from top publishers. Alison is a leading provider of free online classes & online learning.</span>
+                    <span class="tooltiptext">Join 25 million learners and explore 4000 free online courses from top
+                        publishers. Alison is a leading provider of free online classes & online learning.</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://www.edx.org/', '_blank')">
@@ -919,7 +1015,8 @@
                             <p>国外网课平台</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">edX是哈佛大学和麻省理工学院共同创立的非营利网络教育项目，旨在为全球提供来自哈佛大学、麻省理工学院、加州大学伯克利分校、清华大学、北京大学、香港大学、香港科技大学等全球顶尖高校及组织的慕课</span>
+                    <span
+                        class="tooltiptext">edX是哈佛大学和麻省理工学院共同创立的非营利网络教育项目，旨在为全球提供来自哈佛大学、麻省理工学院、加州大学伯克利分校、清华大学、北京大学、香港大学、香港科技大学等全球顶尖高校及组织的慕课</span>
                 </li>
             </ul>
             <h4 id="图文">图文</h4>
@@ -934,10 +1031,12 @@
                             <p>IT 教程</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">提供编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。</span>
+                    <span class="tooltiptext">提供编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP ,
+                        MySQL等各种编程语言的基础知识。</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://www.w3cschool.cn/tutorial', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://www.w3cschool.cn/tutorial', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/wc3.ico" alt="">
                         </div>
@@ -946,7 +1045,8 @@
                             <p>仿照最大的 web 网站，这个界面比较好看</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。</span>
+                    <span class="tooltiptext">提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP ,
+                        MySQL等各种编程语言的基础知识。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://www.w3school.com.cn/', '_blank')">
@@ -958,7 +1058,8 @@
                             <p>全世界最大的 web 技术网站</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">领先的 Web 技术教程 - 全部免费在 W3School，你可以找到你所需要的所有的网站建设教程。从基础的 HTML 到 CSS，乃至进阶的 XML、SQL、JS、PHP 和 ASP.NET。</span>
+                    <span class="tooltiptext">领先的 Web 技术教程 - 全部免费在 W3School，你可以找到你所需要的所有的网站建设教程。从基础的 HTML 到 CSS，乃至进阶的
+                        XML、SQL、JS、PHP 和 ASP.NET。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://docs.python.org/3/', '_blank')">
@@ -986,7 +1087,8 @@
                             <p>开发者技术博客</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">博客园是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识。</span>
+                    <span
+                        class="tooltiptext">博客园是一个面向开发者的知识分享社区。自创建以来，博客园一直致力并专注于为开发者打造一个纯净的技术交流社区，推动并帮助开发者通过互联网分享知识。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://stackoverflow.com/', '_blank')">
@@ -1028,7 +1130,8 @@
                             <p>一般的图书搜索网站</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">书伴（bookfere.com），创建的目的是帮助您更便捷、深入地使用手中的Kindle 阅读器，让读书成为生命的一部分，让灵魂永远行走在路上。 </span>
+                    <span class="tooltiptext">书伴（bookfere.com），创建的目的是帮助您更便捷、深入地使用手中的Kindle 阅读器，让读书成为生命的一部分，让灵魂永远行走在路上。
+                    </span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://new.shuge.org/', '_blank')">
@@ -1052,7 +1155,8 @@
                             <p>IT 相关书籍</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">策划出版高质量的科技书籍为核心业务，主要出版领域包括计算机、电子电气、数学统计、科普等，引进国际高水平的教材、专著，以及发掘国外优秀书籍。</span>
+                    <span
+                        class="tooltiptext">策划出版高质量的科技书籍为核心业务，主要出版领域包括计算机、电子电气、数学统计、科普等，引进国际高水平的教材、专著，以及发掘国外优秀书籍。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://www.wdl.org/zh/', '_blank')">
@@ -1064,7 +1168,8 @@
                             <p>资料比较全，英文搜索</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">世界数字图书馆(The World Digital Library)由联合国教科文组织及32个公共团体合作建立，由全球规模最大的图书馆“美国国会图书馆”主导开发。</span>
+                    <span class="tooltiptext">世界数字图书馆(The World Digital
+                        Library)由联合国教科文组织及32个公共团体合作建立，由全球规模最大的图书馆“美国国会图书馆”主导开发。</span>
                 </li>
                 <li class="tooltip">
                     <div class="website clickOnWebsite" onclick="window.open('https://www.academia.edu/', '_blank')">
@@ -1088,10 +1193,12 @@
                             <p>国外大学教材，须登录，免费下载有限</p>
                         </div>
                     </div>
-                    <span class="tooltiptext">Learn Business Skills and Personal Development through Audio Learning and eBooks in Teams.</span>
+                    <span class="tooltiptext">Learn Business Skills and Personal Development through Audio Learning and
+                        eBooks in Teams.</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('http://chendandan.store/?p=3379', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('http://chendandan.store/?p=3379', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/zlib-jingxiang.png" alt="">
                         </div>
@@ -1107,7 +1214,8 @@
             <h4 id="搜图">搜图</h4>
             <ul>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://graph.baidu.com/pcpage/index?tpl_from=pc', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://graph.baidu.com/pcpage/index?tpl_from=pc', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/baidu.ico" alt="">
                         </div>
@@ -1262,7 +1370,8 @@
                     <span class="tooltiptext">dddd</span>
                 </li>
                 <li class="tooltip">
-                    <div class="website clickOnWebsite" onclick="window.open('https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN', '_blank')">
+                    <div class="website clickOnWebsite"
+                        onclick="window.open('https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN', '_blank')">
                         <div class="web-icon">
                             <img class="clickOnWebsite" src="image/icon/edge.png" alt="">
                         </div>
@@ -1274,7 +1383,7 @@
                     <span class="tooltiptext">rt</span>
                 </li>
 
-            <ul>
+                <ul>
         </div>
         <div class="website-group">
             <h4 id="美图">美图</h4>
@@ -1351,4 +1460,5 @@
         -->
     </div>
 </body>
+
 </html>
