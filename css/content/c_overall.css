@@ -52,7 +52,7 @@
     position: relative;
 }
 .web-desc p{
-    font-size: 6px;
+    font-size: 10px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
